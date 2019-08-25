@@ -12,7 +12,25 @@ There are two branches.
 
 Currently, [Mayank](https://github.com/mynkpl1998) and [Sanjit](https://github.com/skkaul) have the rights to this branch.
 
+
 **dev** branch is the one of which most of you have access to write. Whatever changes you make is needed to be pushed into the dev branch and then submit a merge request to merge your code into the master. Based upon the code quality, whether it breaks the existing code or not, your request might get rejected.
 
+*Note - It is recommended that super users (master branch administrators) should also adhere to the policy of not pushing the code directly into master branch to avoid any code-conflicts.* 
+*Remember - With great power comes great responsibility.*
+
 # How to make a contribution ?
+
+Only group members can contribute to the website development. Make sure you have the push access to the dev branch. If you don't have, ask [Mayank](https://github.com/mynkpl1998) to send an invite link to you.
+Once, you have the access to the branch you are good to go.
+1. If you don't have the repository on your local system, then clone it. If you already have a local copy of the repository, then do a `git pull` inside the existing local copy. This will pull all the new changes if any from the remote repository.
+2. Checkout the dev branch by using this command, `git checkout dev`
+3. Now, you are inside the dev branch. Make the required changes.
+4. Add your changes to the staging stage via `git add .`
+5. Create a commit by giving it an appropriate commit message via `git add -m "insert-your-commit-message-here"`.
+6. Push your changes to the dev remote branch via `git push -u origin dev`. Specifying the remote branch dev is optional. Even if you don't specify any branch it will push your code to dev branch as base branch of the repository is dev. 
+
+
+# What if I accidentally pushed the code to the master branch ?
+
+No worries, you will be greeted with an error message which will say something like *"You don't have write permission to this branch"*. 
 
