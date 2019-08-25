@@ -1,7 +1,7 @@
-# Running on Local Machine
+<img src="img/logo/logo.png" align="center" width="200" height="200">
 
-## Python 3 or Above
-python -m http.server
 
-## Python 2 
-python -m SimpleHTTPServer
+Welcome to the Cyber Physical System Lab Website repository.
+
+* [Contribution Guide](ContributionGuide.md)
+* [Documentation Guide](Documentation.md)
