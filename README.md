@@ -3,7 +3,7 @@
 </p>
 
 
-Welcome to the Cyber Physical System Lab Website repository.
+Welcome to the Cyber Physical Systems Lab Website repository.
 
 * [Contribution Guide](ContributionGuide.md)
-* [Documentation Guide](Documentation.md)
+* [Documentation](Documentation.md)
