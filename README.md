@@ -1,4 +1,6 @@
-<img src="img/logo/logo.png" align="center" width="200" height="200">
+<p align="cener">
+    <img src="img/logo/logo.png" width="500" height="500">
+</p>
 
 
 Welcome to the Cyber Physical System Lab Website repository.
