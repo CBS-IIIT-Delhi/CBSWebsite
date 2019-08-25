@@ -1,6 +1,6 @@
 # Introdution
 
-This purpose of this guide is to explain the conventions and rules which are needed to followed to keep the this website maintainable while keeping the effort minimal.
+This purpose of this guide is to explain the conventions and rules which are needed to followed to keep the this website maintainable, conflict-free while keeping the effort minimal.
 
 # Code Structure
 
@@ -29,8 +29,13 @@ Once, you have the access to the branch you are good to go.
 5. Create a commit by giving it an appropriate commit message via `git add -m "insert-your-commit-message-here"`.
 6. Push your changes to the dev remote branch via `git push -u origin dev`. Specifying the remote branch dev is optional. Even if you don't specify any branch it will push your code to dev branch as base branch of the repository is dev. 
 
+#  How to report/suggest a bug or feature ?
+
+You suggest/report a bug or feature using issues feature. You can also ask a question via issues. You can create a issue by following this link. [Create an issue](https://github.com/CBS-IIIT-Delhi/CBSWebsite/issues/new).
+Make sure to provide a title and description for your query. If, possible provide a label by selecting appropriate one given in the right.
+
 
 # What if I accidentally pushed the code to the master branch ?
 
-No worries, you will be greeted with an error message which will say something like *"You don't have write permission to this branch"*. 
+No worries. You can't push to master branch until or unless you have access to it. If a non-administrator tries to push code directly into the master branch. Then, He/She will be will be greeted with an error message which says something like *"You don't have write permission to this branch"*. 
 
