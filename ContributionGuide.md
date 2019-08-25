@@ -28,7 +28,7 @@ Once, you have the access to the branch you are good to go.
 4. Add your changes to the staging stage via `git add .`
 5. Create a commit by giving it an appropriate commit message via `git add -m "insert-your-commit-message-here"`.
 6. Push your changes to the dev remote branch via `git push -u origin dev`. Specifying the remote branch dev is optional. Even if you don't specify any branch it will push your code to dev branch as base branch of the repository is dev.
-7. After, committing your changes, create a pull request. Refer to this section if you don't know how to create a pull request.
+7. After, committing your changes, create a pull request. Refer to this [section](https://github.com/CBS-IIIT-Delhi/CBSWebsite/blob/dev/Documentation.md#creating-a-pull-request) if you don't know how to create a pull request.
 
 ## How to report/suggest a bug or feature ?
 
